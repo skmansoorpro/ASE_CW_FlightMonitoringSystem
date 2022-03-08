@@ -1,0 +1,2 @@
+[INFO ] 2022-03-04 18:54:00,983 Assignment.createExcelObject() - Started reading the excel file.
+[INFO ] 2022-03-04 18:54:01,040 Assignment.getData() - Completed reading the excel file and returning the Map containing the data.

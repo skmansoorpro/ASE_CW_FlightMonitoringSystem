@@ -1,0 +1,2 @@
+[[32mINFO [m] 2022-03-08 00:01:45,370 fecth_airlines_data.createExcelObject() - Started reading the excel file.
+[[32mINFO [m] 2022-03-08 00:01:45,423 fecth_airlines_data.getData() - Completed reading the excel file and returning the Map containing the data.

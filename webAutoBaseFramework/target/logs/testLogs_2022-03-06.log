@@ -1,0 +1,2 @@
+[INFO ] 2022-03-06 19:36:05,325 ReadExcelFile.createExcelObject() - Started reading the excel file.
+[INFO ] 2022-03-06 19:36:19,220 ReadExcelFile.getData() - Completed reading the excel file and returning the Map containing the data.

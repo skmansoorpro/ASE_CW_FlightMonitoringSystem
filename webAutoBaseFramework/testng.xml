@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<!--<include name="Smoke"></include>-->
+				<!--<include name="Regression"></include>-->
+				<!-- Even if you do not provide exclude tag, whatever is not included will be exlcuded by default -->
+				<exclude name="Sanity"></exclude>
+				<!-- Below tag will run all tests which are in the TestCases class -->
+				<include name="AllTestsInThisClass"></include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="com.webauto.modulename.TestCases" />
+		</classes>
+	</test>
+</suite>
